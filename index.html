@@ -1,4 +1,114 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침</title>
+  <meta name="description" content="앱 개인정보처리방침 목록">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <style>
+    :root {
+      --bg: #f6f4f0;
+      --bg-accent: #e8efe9;
+      --ink: #1a1f1c;
+      --muted: #5a635c;
+      --line: #d4d9d4;
+      --link: #1f5c45;
+      --link-hover: #0f3d2c;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse 80% 50% at 10% -10%, var(--bg-accent), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, #efe8df, transparent 50%),
+        var(--bg);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 4.5rem 1.5rem 5rem;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.25;
+    }
+
+    .lead {
+      margin: 0 0 2.5rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--line);
+    }
+
+    li {
+      border-bottom: 1px solid var(--line);
+    }
+
+    a {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.1rem 0.15rem;
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.15s ease;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
+    }
+
+    a span {
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>개인정보처리방침</h1>
+    <p class="lead">앱별 개인정보처리방침을 확인할 수 있습니다.</p>
+    <ul>
+      <li>
+        <a href="privacy/sample-app.html">
+          Sample App
+          <span>예시 템플릿</span>
+        </a>
+      </li>
+      <!-- 새 앱 추가 시 위 항목을 복사해 링크를 추가하세요. -->
+    </ul>
+    <footer>
+      <p>앱 스토어 등록 시 해당 앱의 방침 URL을 사용하세요.</p>
+    </footer>
+  </main>
+</body>
+</html>

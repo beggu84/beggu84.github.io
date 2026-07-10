@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침 — Sample App</title>
+  <meta name="description" content="Sample App 개인정보처리방침">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <style>
+    :root {
+      --bg: #f6f4f0;
+      --bg-accent: #e8efe9;
+      --ink: #1a1f1c;
+      --muted: #5a635c;
+      --line: #d4d9d4;
+      --link: #1f5c45;
+      --link-hover: #0f3d2c;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse 80% 50% at 10% -10%, var(--bg-accent), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, #efe8df, transparent 50%),
+        var(--bg);
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 2rem;
+      color: var(--link);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .back:hover,
+    .back:focus-visible {
+      color: var(--link-hover);
+    }
+
+    h1 {
+      margin: 0 0 0.4rem;
+      font-size: clamp(1.6rem, 4vw, 2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.3;
+    }
+
+    .meta {
+      margin: 0 0 2.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      margin: 2.25rem 0 0.75rem;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    p, li {
+      color: var(--ink);
+      font-size: 1rem;
+    }
+
+    p { margin: 0 0 0.85rem; }
+
+    ul {
+      margin: 0 0 0.85rem;
+      padding-left: 1.25rem;
+    }
+
+    li { margin-bottom: 0.35rem; }
+
+    a {
+      color: var(--link);
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--link-hover);
+    }
+
+    .note {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../index.html">← 목록으로</a>
+
+    <h1>개인정보처리방침</h1>
+    <p class="meta">Sample App · 시행일: 2026년 7월 10일</p>
+
+    <p>
+      <strong>Sample App</strong>(이하 “앱”)은 이용자의 개인정보를 중요하게 생각하며,
+      관련 법령에 따라 개인정보를 안전하게 처리합니다.
+      본 방침은 앱 서비스 이용과 관련하여 수집·이용되는 개인정보에 대해 안내합니다.
+    </p>
+
+    <h2>1. 수집하는 개인정보 항목</h2>
+    <p>앱은 서비스 제공을 위해 다음과 같은 정보를 수집할 수 있습니다.</p>
+    <ul>
+      <li>[예: 계정 정보 — 이메일, 닉네임]</li>
+      <li>[예: 기기 정보 — 기기 모델, OS 버전]</li>
+      <li>[예: 이용 기록 — 앱 사용 로그, 오류 로그]</li>
+      <li>[해당 없으면 “앱은 개인정보를 수집하지 않습니다.”로 교체]</li>
+    </ul>
+
+    <h2>2. 개인정보의 수집·이용 목적</h2>
+    <ul>
+      <li>[예: 서비스 제공 및 기능 개선]</li>
+      <li>[예: 고객 문의 응대]</li>
+      <li>[예: 부정 이용 방지 및 안정성 확보]</li>
+    </ul>
+
+    <h2>3. 개인정보의 보유 및 이용 기간</h2>
+    <p>
+      수집한 개인정보는 이용 목적이 달성되거나 이용자가 삭제를 요청한 경우
+      지체 없이 파기합니다. 다만 관련 법령에 따라 보관이 필요한 경우
+      해당 기간 동안 보관할 수 있습니다.
+    </p>
+    <ul>
+      <li>[예: 회원 탈퇴 시 즉시 삭제]</li>
+      <li>[예: 관련 법령에 따른 보관 기간이 있으면 명시]</li>
+    </ul>
+
+    <h2>4. 개인정보의 제3자 제공</h2>
+    <p>
+      앱은 이용자의 동의 없이 개인정보를 제3자에게 제공하지 않습니다.
+      다만 법령에 근거한 요청이 있는 경우에는 예외로 할 수 있습니다.
+    </p>
+    <p>
+      [제3자 SDK·분석·광고 도구를 쓰는 경우 여기에 제공 업체와 목적을 명시하세요.
+      해당 없으면 이 문단을 삭제하세요.]
+    </p>
+
+    <h2>5. 개인정보 처리의 위탁</h2>
+    <p>
+      [처리 위탁이 있으면 수탁자와 업무 내용을 명시하세요.
+      없으면 “앱은 개인정보 처리를 외부에 위탁하지 않습니다.”로 교체하세요.]
+    </p>
+
+    <h2>6. 이용자의 권리</h2>
+    <p>
+      이용자는 언제든지 개인정보 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다.
+      요청은 아래 문의 창구로 연락해 주시면 됩니다.
+    </p>
+
+    <h2>7. 개인정보의 파기</h2>
+    <p>
+      개인정보는 보유 기간이 경과하거나 처리 목적이 달성된 후
+      복구·재생이 불가능한 방법으로 파기합니다.
+    </p>
+
+    <h2>8. 개인정보 보호를 위한 조치</h2>
+    <p>
+      앱은 개인정보의 안전한 처리를 위해 접근 제한, 전송 구간 보호 등
+      합리적인 기술적·관리적 조치를 취합니다.
+    </p>
+
+    <h2>9. 아동의 개인정보</h2>
+    <p>
+      앱은 만 14세 미만 아동의 개인정보를 고의로 수집하지 않습니다.
+      [대상 연령이 다르면 수정하세요.]
+    </p>
+
+    <h2>10. 개인정보처리방침의 변경</h2>
+    <p>
+      본 방침이 변경되는 경우 앱 내 공지 또는 본 페이지를 통해 안내합니다.
+      변경된 방침은 게시한 날부터 효력이 발생합니다.
+    </p>
+
+    <h2>11. 문의처</h2>
+    <p>
+      개인정보 관련 문의는 아래로 연락해 주세요.<br>
+      이메일: <a href="mailto:you@example.com">you@example.com</a>
+    </p>
+
+    <p class="note">
+      이 파일은 템플릿입니다. 복사한 뒤 앱 이름·수집 항목·문의 이메일을 실제 내용으로 바꾼 다음
+      앱 스토어에 <code>https://beggu84.github.io/privacy/앱-슬러그.html</code> 형태로 등록하세요.
+    </p>
+  </main>
+</body>
+</html>
