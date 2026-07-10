@@ -28,18 +28,30 @@ main {
   padding: 3rem 1.5rem 5rem;
 }
 
-.back {
-  display: inline-block;
+.doc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.25rem;
   margin-bottom: 2rem;
-  color: var(--link);
-  text-decoration: none;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
   font-size: 0.95rem;
+}
+
+.doc-nav a {
+  color: var(--muted);
+  text-decoration: none;
   font-weight: 500;
 }
 
-.back:hover,
-.back:focus-visible {
+.doc-nav a:hover,
+.doc-nav a:focus-visible {
   color: var(--link-hover);
+}
+
+.doc-nav a[aria-current="page"] {
+  color: var(--link);
+  font-weight: 700;
 }
 
 #content :is(h1, h2, h3) {
